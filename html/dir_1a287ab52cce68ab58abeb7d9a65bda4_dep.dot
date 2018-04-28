@@ -1,0 +1,16 @@
+digraph "C:/Users/Ace Sps/Downloads/Compressed/Computational-Geome/Computational Geometry" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b4114f8875ddb5136fd425ed0cc31128 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Computational-Geome" fontname="Helvetica", fontsize="10", URL="dir_b4114f8875ddb5136fd425ed0cc31128.html"]
+  subgraph clusterdir_1a287ab52cce68ab58abeb7d9a65bda4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1a287ab52cce68ab58abeb7d9a65bda4.html"];
+    dir_1a287ab52cce68ab58abeb7d9a65bda4 [shape=plaintext label="Computational Geometry"];
+    dir_4111393f9224d110e39d5466b40d42fa [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_4111393f9224d110e39d5466b40d42fa.html"];
+    dir_e5aeb3dba53e988bde61400e3b7508eb [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_e5aeb3dba53e988bde61400e3b7508eb.html"];
+  }
+  }
+  dir_e5aeb3dba53e988bde61400e3b7508eb->dir_4111393f9224d110e39d5466b40d42fa [headlabel="17", labeldistance=1.5 headhref="dir_000008_000007.html"];
+  dir_1a287ab52cce68ab58abeb7d9a65bda4->dir_4111393f9224d110e39d5466b40d42fa [headlabel="19", labeldistance=1.5 headhref="dir_000006_000007.html"];
+}

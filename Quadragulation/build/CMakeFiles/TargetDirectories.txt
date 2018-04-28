@@ -1,0 +1,3 @@
+/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/rebuild_cache.dir
+/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/ComputationalGeometry.dir
+/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/edit_cache.dir

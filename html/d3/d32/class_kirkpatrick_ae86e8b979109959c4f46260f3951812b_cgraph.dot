@@ -1,0 +1,34 @@
+digraph "Kirkpatrick::kirkpatrick"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="Kirkpatrick::kirkpatrick",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="findpmin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#aafec16e1a27c247d0a5120352ed22a49"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="UpperHull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a4479231afeb4f062090065f22d64269b"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Compare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a593a6ee4a0a89022c597eb64a90b019a"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="upperBridge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a781341c135586052b55fa1544bb7f16b"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Point::intersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a1d8545b389dc6e4d16fc7e6e03fbb456"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="divide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a62856f4b79799eaa320d0e8aca389eaa"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Point::angle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a7d0c702d0290069deea9e1dee59d3585"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Point::to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a0694c103436f0732c3cfcbda09b73c7d"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Point::Point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#ad92f2337b839a94ce97dcdb439b4325a"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Point::cross",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a3a645e9d017026692a770816d4ce8abc"];
+  Node4 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="LowerHull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#ade45580a9cd19c0afc95cf67efc44dee"];
+  Node15 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="lowerBridge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#ade91404ef9c3d34fe2ef85e38516c704"];
+  Node16 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

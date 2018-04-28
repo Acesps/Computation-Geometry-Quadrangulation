@@ -1,0 +1,23 @@
+digraph "LowerHull"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="LowerHull",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="Compare",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a593a6ee4a0a89022c597eb64a90b019a"];
+  Node22 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="lowerBridge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#ade91404ef9c3d34fe2ef85e38516c704"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="Point::intersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a1d8545b389dc6e4d16fc7e6e03fbb456"];
+  Node22 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="divide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d13/_kirkpatrick_8cpp.html#a62856f4b79799eaa320d0e8aca389eaa"];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="Point::angle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a7d0c702d0290069deea9e1dee59d3585"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="Point::to",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a0694c103436f0732c3cfcbda09b73c7d"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="Point::Point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#ad92f2337b839a94ce97dcdb439b4325a"];
+  Node27 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="Point::cross",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a3a645e9d017026692a770816d4ce8abc"];
+}

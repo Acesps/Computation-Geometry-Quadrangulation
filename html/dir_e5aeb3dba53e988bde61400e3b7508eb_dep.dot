@@ -1,0 +1,11 @@
+digraph "C:/Users/Ace Sps/Downloads/Compressed/Computational-Geome/Computational Geometry/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1a287ab52cce68ab58abeb7d9a65bda4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Computational Geometry" fontname="Helvetica", fontsize="10", URL="dir_1a287ab52cce68ab58abeb7d9a65bda4.html"]
+  dir_e5aeb3dba53e988bde61400e3b7508eb [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e5aeb3dba53e988bde61400e3b7508eb.html"];
+  }
+  dir_4111393f9224d110e39d5466b40d42fa [shape=box label="include" URL="dir_4111393f9224d110e39d5466b40d42fa.html"];
+  dir_e5aeb3dba53e988bde61400e3b7508eb->dir_4111393f9224d110e39d5466b40d42fa [headlabel="17", labeldistance=1.5 headhref="dir_000008_000007.html"];
+}

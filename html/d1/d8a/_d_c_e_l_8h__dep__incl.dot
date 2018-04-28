@@ -1,0 +1,26 @@
+digraph "C:/Users/Ace Sps/Downloads/Compressed/Computational-Geome/Computational Geometry/include/DCEL.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node7 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/DCEL.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/SLState.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d04/_s_l_state_8h.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/Sweepline.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dea/_sweepline_8h.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/triangulation.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de8/triangulation_8hpp.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html"];
+  Node9 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/Sweepline.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3a/_sweepline_8cpp.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/SLState.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d07/_s_l_state_8cpp.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/Visualize.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d09/_visualize_8h.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/Visualize.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/de1/_visualize_8cpp.html"];
+  Node7 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/DCEL.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da6/_d_c_e_l_8cpp.html"];
+}

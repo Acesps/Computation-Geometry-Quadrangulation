@@ -1,0 +1,31 @@
+digraph "C:/Users/Ace Sps/Downloads/Compressed/Computational-Geome/Computational Geometry/include/SLVertex.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/SLVertex.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/SLEdge.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d02/_s_l_edge_8h.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/SLState.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d04/_s_l_state_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/Sweepline.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dea/_sweepline_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/include/triangulation.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de8/triangulation_8hpp.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/Sweepline.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3a/_sweepline_8cpp.html"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/SLState.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d07/_s_l_state_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/SLEdge.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dff/_s_l_edge_8cpp.html"];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="C:/Users/Ace Sps/Downloads\l/Compressed/Computational\l-Geome/Computational Geometry\l/src/SLVertex.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de3/_s_l_vertex_8cpp.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,13 @@
+digraph "HalfEdge::set_face"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="HalfEdge::set_face",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Face::update_inner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2a/class_face.html#a6a9422b85f4851f9da4bc704407728cb"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="DCEL::addHalfEdges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#afceb4cf14784106f994f1929ce13c0ea"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Face::Face",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2a/class_face.html#ad198ffc275f2193f09df2ccfba866bac"];
+}

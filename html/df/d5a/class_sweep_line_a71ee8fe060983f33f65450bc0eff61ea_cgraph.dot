@@ -1,0 +1,28 @@
+digraph "SweepLine::triangulate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SweepLine::triangulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SweepLine::triangulation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5a/class_sweep_line.html#ab2def9edd00a0ac96fda1479af3df0ac"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SLState::initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d5f/class_s_l_state.html#a796d5604b35a3fd6bfde3fc0ed3de258"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DCEL::initialise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#a88239cb7917f819795abb912531cb93d"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="HalfEdge::set_next",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df5/class_half_edge.html#ac4ce4a592f0ca8b41389a0c5251d0699"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="HalfEdge::set_prev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df5/class_half_edge.html#a368163a4474521b16ec87a41f98c9711"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="HalfEdge::make_twin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df5/class_half_edge.html#aa0bd15065d1914670b4309afa1861500"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Vertex::compfunc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d72/class_vertex.html#ab11e35929607bb7c122e27a53b9bd068"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DCEL::triangulateYMonotone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#abae208232d75fbcf57ef5d9c3190482c"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="DCEL::addHalfEdges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#af84548966a21d3101185304562104a2c"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="DCEL::getTriangles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#a3cef69d95a23349796150051adfcde77"];
+}

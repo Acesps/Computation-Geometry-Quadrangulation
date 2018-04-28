@@ -1,0 +1,312 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DCEL.h
+vector
+-
+Vertex.h
+../include/Vertex.h
+Face.h
+../include/Face.h
+HalfEdge.h
+../include/HalfEdge.h
+Point.h
+../include/Point.h
+Triangle.h
+../include/Triangle.h
+
+../include/Face.h
+HalfEdge.h
+../include/HalfEdge.h
+
+../include/Grahams.h
+iostream
+-
+algorithm
+-
+vector
+-
+Point.h
+../include/Point.h
+
+../include/HalfEdge.h
+Vertex.h
+../include/Vertex.h
+Face.h
+../include/Face.h
+
+../include/Jarvis.h
+iostream
+-
+vector
+-
+Point.h
+../include/Point.h
+
+../include/Kirkpatrick.h
+iostream
+-
+algorithm
+-
+list
+-
+vector
+-
+Point.h
+../include/Point.h
+
+../include/Point.h
+
+../include/Quadrangulate.h
+Point.h
+../include/Point.h
+Quadrilateral.h
+../include/Quadrilateral.h
+vector
+-
+algorithm
+-
+iostream
+-
+set
+-
+
+../include/Quadrangulation.hpp
+iostream
+-
+algorithm
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+opencv2/opencv.hpp
+-
+Quadrangulate.h
+../include/Quadrangulate.h
+Quadrilateral.h
+../include/Quadrilateral.h
+
+../include/Quadrilateral.h
+Point.h
+../include/Point.h
+
+../include/RBTree.h
+iostream
+-
+
+../include/SLEdge.h
+SLVertex.h
+../include/SLVertex.h
+
+../include/SLState.h
+queue
+-
+vector
+-
+DCEL.h
+../include/DCEL.h
+SLVertex.h
+../include/SLVertex.h
+SLEdge.h
+../include/SLEdge.h
+RBTree.h
+../include/RBTree.h
+
+../include/SLVertex.h
+Point.h
+../include/Point.h
+SLEdge.h
+../include/SLEdge.h
+
+../include/Sweepline.h
+vector
+-
+list
+-
+Point.h
+../include/Point.h
+SLVertex.h
+../include/SLVertex.h
+SLState.h
+../include/SLState.h
+SLEdge.h
+../include/SLEdge.h
+DCEL.h
+../include/DCEL.h
+Triangle.h
+../include/Triangle.h
+
+../include/Triangle.h
+Point.h
+../include/Point.h
+
+../include/Vertex.h
+Point.h
+../include/Point.h
+HalfEdge.h
+../include/HalfEdge.h
+
+../include/Visualize.h
+opencv/cv.h
+-
+DCEL.h
+../include/DCEL.h
+
+../include/Window.h
+iomanip
+-
+opencv2/opencv.hpp
+-
+vector
+-
+Point.h
+../include/Point.h
+
+../include/hull.hpp
+iostream
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+opencv2/opencv.hpp
+-
+Point.h
+../include/Point.h
+Window.h
+../include/Window.h
+Grahams.h
+../include/Grahams.h
+Jarvis.h
+../include/Jarvis.h
+Kirkpatrick.h
+../include/Kirkpatrick.h
+stdio.h
+-
+
+../include/triangulation.hpp
+iostream
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+opencv2/opencv.hpp
+-
+Point.h
+../include/Point.h
+DCEL.h
+../include/DCEL.h
+Sweepline.h
+../include/Sweepline.h
+Vertex.h
+../include/Vertex.h
+Window.h
+../include/Window.h
+stdio.h
+-
+
+/home/acesps/Downloads/New Folder/Computational Geometry/main.cpp
+triangulation.hpp
+/home/acesps/Downloads/New Folder/Computational Geometry/triangulation.hpp
+hull.hpp
+/home/acesps/Downloads/New Folder/Computational Geometry/hull.hpp
+Quadrangulation.hpp
+/home/acesps/Downloads/New Folder/Computational Geometry/Quadrangulation.hpp
+iostream
+-
+condition_variable
+-
+stdio.h
+-
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.cpp
+algorithm
+-
+stack
+-
+iostream
+-
+DCEL.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.cpp
+Face.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.cpp
+Grahams.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.cpp
+HalfEdge.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.cpp
+Jarvis.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.cpp
+Kirkpatrick.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.cpp
+Point.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.cpp
+Quadrangulate.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.cpp
+SLEdge.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+limits
+-
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.cpp
+SLState.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.h
+SLVertex.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.h
+SLEdge.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+limits
+-
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.cpp
+SLVertex.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.h
+SLEdge.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.cpp
+algorithm
+-
+Sweepline.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.h
+RBTree.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/RBTree.h
+queue
+-
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.cpp
+Vertex.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.h
+
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.cpp
+Visualize.h
+/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.h
+

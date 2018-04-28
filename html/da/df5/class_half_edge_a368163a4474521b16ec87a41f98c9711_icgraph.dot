@@ -1,0 +1,17 @@
+digraph "HalfEdge::set_prev"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="HalfEdge::set_prev",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="DCEL::initialise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#a88239cb7917f819795abb912531cb93d"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="SLState::initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d5f/class_s_l_state.html#a796d5604b35a3fd6bfde3fc0ed3de258"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="SweepLine::triangulation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5a/class_sweep_line.html#ab2def9edd00a0ac96fda1479af3df0ac"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="SweepLine::triangulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5a/class_sweep_line.html#a71ee8fe060983f33f65450bc0eff61ea"];
+  Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="DCEL::addHalfEdges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d20/class_d_c_e_l.html#afceb4cf14784106f994f1929ce13c0ea"];
+}

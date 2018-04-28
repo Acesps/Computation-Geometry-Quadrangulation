@@ -1,0 +1,13 @@
+digraph "C:/Users/Ace Sps/Downloads" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0b2715075cf8312880efe4f625451012 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Ace Sps" fontname="Helvetica", fontsize="10", URL="dir_0b2715075cf8312880efe4f625451012.html"]
+  subgraph clusterdir_017c1216c60ffa73bfc7db7e08c08492 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_017c1216c60ffa73bfc7db7e08c08492.html"];
+    dir_017c1216c60ffa73bfc7db7e08c08492 [shape=plaintext label="Downloads"];
+    dir_afa90881f3ac6980f2d9c54fda59e0b4 [shape=box label="Compressed" color="red" fillcolor="white" style="filled" URL="dir_afa90881f3ac6980f2d9c54fda59e0b4.html"];
+  }
+  }
+}
