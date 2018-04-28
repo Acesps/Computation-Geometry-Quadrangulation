@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/include/opencv -I"/home/acesps/Downloads/New Folder/Computational Geometry/include" 
+CXX_INCLUDES = -isystem /usr/include/opencv -I"/mnt/E:/Computational Geometry/Term Project/Quadragulation/include" 
 

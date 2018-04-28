@@ -218,13 +218,13 @@ Window.h
 stdio.h
 -
 
-/home/acesps/Downloads/New Folder/Computational Geometry/main.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/main.cpp
 triangulation.hpp
-/home/acesps/Downloads/New Folder/Computational Geometry/triangulation.hpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/triangulation.hpp
 hull.hpp
-/home/acesps/Downloads/New Folder/Computational Geometry/hull.hpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/hull.hpp
 Quadrangulation.hpp
-/home/acesps/Downloads/New Folder/Computational Geometry/Quadrangulation.hpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/Quadrangulation.hpp
 iostream
 -
 condition_variable
@@ -232,7 +232,7 @@ condition_variable
 stdio.h
 -
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/DCEL.cpp
 algorithm
 -
 stack
@@ -240,73 +240,73 @@ stack
 iostream
 -
 DCEL.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/DCEL.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Face.cpp
 Face.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Face.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Grahams.cpp
 Grahams.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Grahams.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/HalfEdge.cpp
 HalfEdge.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/HalfEdge.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Jarvis.cpp
 Jarvis.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Jarvis.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Kirkpatrick.cpp
 Kirkpatrick.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Kirkpatrick.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Point.cpp
 Point.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Point.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Quadrangulate.cpp
 Quadrangulate.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Quadrangulate.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.cpp
 SLEdge.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.h
 limits
 -
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLState.cpp
 SLState.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLState.h
 SLVertex.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.h
 SLEdge.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.h
 limits
 -
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.cpp
 SLVertex.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.h
 SLEdge.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Sweepline.cpp
 algorithm
 -
 Sweepline.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Sweepline.h
 RBTree.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/RBTree.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/RBTree.h
 queue
 -
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Vertex.cpp
 Vertex.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Vertex.h
 
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.cpp
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Visualize.cpp
 Visualize.h
-/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.h
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Visualize.h
 

@@ -1,0 +1,26 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d43b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d43b.dir/build.make CMakeFiles/cmTC_8d43b.dir/build
+make[1]: Entering directory '/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_8d43b.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8d43b/fast' failed
+make: *** [cmTC_8d43b/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03f17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03f17.dir/build.make CMakeFiles/cmTC_03f17.dir/build
+make[1]: Entering directory '/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_03f17.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_03f17/fast' failed
+make: *** [cmTC_03f17/fast] Error 2
+
+
+

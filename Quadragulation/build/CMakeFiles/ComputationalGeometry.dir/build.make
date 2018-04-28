@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/acesps/Downloads/New Folder/Computational Geometry"
+CMAKE_SOURCE_DIR = "/mnt/E:/Computational Geometry/Term Project/Quadragulation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/acesps/Downloads/New Folder/Computational Geometry/build"
+CMAKE_BINARY_DIR = "/mnt/E:/Computational Geometry/Term Project/Quadragulation/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ComputationalGeometry.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ComputationalGeometry.dir/flags.make
 
 CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o: ../src/DCEL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/DCEL.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.cpp" > CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/DCEL.cpp" > CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/DCEL.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/DCEL.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ComputationalGeometry.dir/src/DCEL.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o: ../src/Face.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Face.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Face.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Face.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Face.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Face.cpp.o.provides.build: CMakeFiles/C
 
 CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o: ../src/Grahams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Grahams.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Grahams.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Grahams.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Grahams.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Grahams.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o: ../src/HalfEdge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/HalfEdge.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.cpp" > CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/HalfEdge.cpp" > CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/HalfEdge.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/HalfEdge.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ComputationalGeometry.dir/src/HalfEdge.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o: ../src/Jarvis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Jarvis.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Jarvis.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Jarvis.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Jarvis.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Jarvis.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o: ../src/Kirkpatrick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Kirkpatrick.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Kirkpatrick.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Kirkpatrick.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Kirkpatrick.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Kirkpatrick.cpp.o.provides.build: CMake
 
 CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o: ../src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Point.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Point.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Point.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Point.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Point.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o: ../src/Quadrangulate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Quadrangulate.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Quadrangulate.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Quadrangulate.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Quadrangulate.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Quadrangulate.cpp.o.provides.build: CMa
 
 CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o: ../src/SLEdge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLEdge.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLEdge.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ComputationalGeometry.dir/src/SLEdge.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o: ../src/SLState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLState.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLState.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLState.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLState.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ComputationalGeometry.dir/src/SLState.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o: ../src/SLVertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.cpp" > CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/SLVertex.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/SLVertex.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ComputationalGeometry.dir/src/SLVertex.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o: ../src/Sweepline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Sweepline.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Sweepline.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Sweepline.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Sweepline.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Sweepline.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o: ../src/Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Vertex.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Vertex.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Vertex.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Vertex.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Vertex.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o: ../src/Visualize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Visualize.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Visualize.cpp" > CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/src/Visualize.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/src/Visualize.cpp" -o CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ComputationalGeometry.dir/src/Visualize.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/ComputationalGeometry.dir/main.cpp.o: CMakeFiles/ComputationalGeometry.dir/flags.make
 CMakeFiles/ComputationalGeometry.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ComputationalGeometry.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/main.cpp.o -c "/home/acesps/Downloads/New Folder/Computational Geometry/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ComputationalGeometry.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ComputationalGeometry.dir/main.cpp.o -c "/mnt/E:/Computational Geometry/Term Project/Quadragulation/main.cpp"
 
 CMakeFiles/ComputationalGeometry.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputationalGeometry.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/acesps/Downloads/New Folder/Computational Geometry/main.cpp" > CMakeFiles/ComputationalGeometry.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/E:/Computational Geometry/Term Project/Quadragulation/main.cpp" > CMakeFiles/ComputationalGeometry.dir/main.cpp.i
 
 CMakeFiles/ComputationalGeometry.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputationalGeometry.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/acesps/Downloads/New Folder/Computational Geometry/main.cpp" -o CMakeFiles/ComputationalGeometry.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/E:/Computational Geometry/Term Project/Quadragulation/main.cpp" -o CMakeFiles/ComputationalGeometry.dir/main.cpp.s
 
 CMakeFiles/ComputationalGeometry.dir/main.cpp.o.requires:
 
@@ -496,7 +496,7 @@ ComputationalGeometry: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.1.0
 ComputationalGeometry: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.1.0
 ComputationalGeometry: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.1.0
 ComputationalGeometry: CMakeFiles/ComputationalGeometry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ComputationalGeometry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ComputationalGeometry"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ComputationalGeometry.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -527,6 +527,6 @@ CMakeFiles/ComputationalGeometry.dir/clean:
 .PHONY : CMakeFiles/ComputationalGeometry.dir/clean
 
 CMakeFiles/ComputationalGeometry.dir/depend:
-	cd "/home/acesps/Downloads/New Folder/Computational Geometry/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/acesps/Downloads/New Folder/Computational Geometry" "/home/acesps/Downloads/New Folder/Computational Geometry" "/home/acesps/Downloads/New Folder/Computational Geometry/build" "/home/acesps/Downloads/New Folder/Computational Geometry/build" "/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/ComputationalGeometry.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/E:/Computational Geometry/Term Project/Quadragulation/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/E:/Computational Geometry/Term Project/Quadragulation" "/mnt/E:/Computational Geometry/Term Project/Quadragulation" "/mnt/E:/Computational Geometry/Term Project/Quadragulation/build" "/mnt/E:/Computational Geometry/Term Project/Quadragulation/build" "/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/ComputationalGeometry.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ComputationalGeometry.dir/depend
 

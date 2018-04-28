@@ -1,3 +1,3 @@
-/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/rebuild_cache.dir
-/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/ComputationalGeometry.dir
-/home/acesps/Downloads/New Folder/Computational Geometry/build/CMakeFiles/edit_cache.dir
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/rebuild_cache.dir
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/ComputationalGeometry.dir
+/mnt/E:/Computational Geometry/Term Project/Quadragulation/build/CMakeFiles/edit_cache.dir
