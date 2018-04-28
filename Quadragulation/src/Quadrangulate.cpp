@@ -1,5 +1,5 @@
 #include "Quadrangulate.h"
-
+#define IT vector<Point*>::iterator 
 Quadrangulate::Quadrangulate(){
 	//ctor
 }
@@ -125,10 +125,23 @@ vector<Point*> Quadrangulate::ConvexSpiral(vector<Point> &pts){
 	return Spiral;
 }
 
+
+bool Delone_TriangleChecker(IT a,IT b,IT c,IT d){
+    //check whether D is in circumcircle of ABC
+    float ax_ = (*a)->x - (*d)->x;
+    float ay_ = (*a)->y - (*d)->y;
+    float bx_ = (*b)->x - (*d)->x;
+    float by_ = (*b)->y - (*d)->y;
+    float cx_ = (*c)->x - (*d)->x;
+    float cy_ = (*c)->y - (*d)->y;
+    return (
+        (ax_*ax_ + ay_*ay_) * (bx_*cy_-cx_*by_) -
+        (bx_*bx_ + by_*by_) * (ax_*cy_-cx_*ay_) +
+        (cx_*cx_ + cy_*cy_) * (ax_*by_-bx_*ay_)
+    ) < 0;
+}
 vector<pair<Point*,Point*> > Quadrangulate::getDiagonals(){
     vector<pair<Point*,Point*> > diagonals;
-    cout<<Ph_index<<"Ph_index in diagonals\n";
-    cout<<Spiral;
     diagonals.push_back(make_pair(Spiral[0],Spiral[Ph_index]));
     //pointer for C0
     auto it_i = Spiral.begin();
@@ -137,13 +150,16 @@ vector<pair<Point*,Point*> > Quadrangulate::getDiagonals(){
         auto it_j = Spiral.begin() + Ph_index;
         //for region P0
         while(it_j != Spiral.begin() + Spiral.size() - 1){
-            cout<<"jage raho\n";
-            if( (*(it_j+1))->angle(**(it_j),**(it_i+1)) ==1 ){
+            //cout<<"jage raho\n";
+            if((*(it_j+1))->angle(**(it_j),**(it_i+1)) ==1 && 
+                Delone_TriangleChecker(it_i,it_i+1,it_j,it_j+1)){
+                
                 it_i++;
             }
             else{
                 it_j++;
             }
+
             diagonals.push_back(make_pair(*it_i,*it_j));
         }
     }
@@ -157,14 +173,19 @@ vector<pair<Point*,Point*> > Quadrangulate::getDiagonals(){
 }
 
 void Quadrangulate::Quadrangulation(vector<Point>& pts, vector<Quadrilateral>& q_list){
-	ConvexSpiral(pts);
+    for(int i =0 ;i<pts.size()-1;i++){
+        if(pts[i] == pts[i+1]){
+            pts.erase(pts.begin() + i + 1);
+        }
+    }
+    ConvexSpiral(pts);
 	vector<pair<Point*,Point*> > diagonals = getDiagonals();
-    cout<<Spiral.size()<<" spiral ka size"<<endl;
+    cout<<Ph_index<<" is Ph_index"<<endl;
+    cout<<"Spiral is:"<<endl;
     cout<<Spiral;
-    cout<<"yaha ho raha hai jadu\n";
+    cout<<"diagonals are: ";
     cout<<diagonals.size()<<endl;
     cout<<diagonals;
-    cout<<Ph_index<<" Ph_index"<<endl;
     for(int i = 0 ;i<diagonals.size()-2;i+=2){
         PList.clear();
         for(int j =0 ;j<3;j++){
@@ -197,33 +218,6 @@ void Quadrangulate::Quadrangulation(vector<Point>& pts, vector<Quadrilateral>& q
                 PList.erase(PList.begin() + 4);
             }
         }
-        //sort(PList.begin(),PList.end());
-        /*for(int j=0;j<PList.size()-1;j++){
-            if(*PList[j]==*PList[j+1]){
-                PList.erase(PList.begin()+ j+1);
-                j--;
-            }
-        }*/
-
-        /*if(PList[0]->angle(*PList[1],*PList[2]) != PList[1]->angle(*PList[2],*PList[3])){
-            Point* temp= PList[2];
-            PList[2]=PList[3];
-            PList[3]=temp;
-        }
-        if(PList[1]->angle(*PList[2],*PList[3]) != PList[2]->angle(*PList[3],*PList[0])){
-            Point* temp= PList[3];
-            PList[3]=PList[0];
-            PList[0]=temp;
-        }
-        if(PList[2]->angle(*PList[3],*PList[0]) != PList[3]->angle(*PList[0],*PList[1])){
-            Point* temp= PList[0];
-            PList[0]=PList[1];
-            PList[1]=temp;
-        }if(PList[3]->angle(*PList[0],*PList[1]) != PList[0]->angle(*PList[1],*PList[2])){
-            Point* temp= PList[1];
-            PList[1]=PList[2];
-            PList[2]=temp;
-        }*/
         cout<<PList;
         q_list.push_back(Quadrilateral(*PList[0],*PList[1],*PList[2],*PList[3]));
         cout<<"diagonal deleted && quadrilateral added"<<endl;
