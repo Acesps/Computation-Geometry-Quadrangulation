@@ -40,3 +40,10 @@ To build, execute the following commands from the project root directory:
 From the build directory:
 
     ./ComputationalGeometry
+    
+### Memory Analysis Using 
+     Valgrind using Masif Tool
+
+### Time Analysis Using
+     time.h 
+### Full Analysis can be found at https://bhavathireddy.wixsite.com/compgeo     
